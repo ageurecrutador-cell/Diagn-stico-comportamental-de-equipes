@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>TalentHub — Vitrine de Talentos</title>
+<meta name="description" content="Rede social de currículos: candidatos publicam seu perfil e empresas encontram talentos com filtros e match por IA." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- ===== Cabeçalho ===== -->
+  <header class="topbar" id="topbar">
+    <a href="#/" class="brand" data-nav>
+      <span class="brand-mark">◆</span>
+      <span>Talent<b>Hub</b></span>
+    </a>
+    <nav class="topnav" id="topnav"><!-- preenchido por JS --></nav>
+  </header>
+
+  <!-- ===== Conteúdo (roteado por JS) ===== -->
+  <main id="app" class="app"></main>
+
+  <!-- ===== Rodapé ===== -->
+  <footer class="footer">
+    <p>TalentHub · Vitrine de Talentos — protótipo. Os dados ficam salvos apenas neste navegador.</p>
+  </footer>
+
+  <!-- ===== Toast ===== -->
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/seed.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
